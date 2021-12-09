@@ -22,8 +22,8 @@ class FindDoadorByCpf
             'name' => "string",
             'cpf' => "string",
             'email' => "string",
-            'phoneNumber' => "int"]
-    )]
+            'phoneNumber' => "int"
+    ])]
     public function findByCpf(string $cpf): array
     {
         $cpf = new Cpf($cpf);

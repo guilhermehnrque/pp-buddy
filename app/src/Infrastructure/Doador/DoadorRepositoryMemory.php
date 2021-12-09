@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repository\Doador;
+namespace App\Infrastructure\Doador;
 
 use App\Domain\Cpf;
 use App\Domain\Doador\Doador;
